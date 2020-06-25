@@ -1,0 +1,417 @@
+/*
+================================================================================================
+Embedded Systems - grid-systems.css
+================================================================================================
+This is the most generic template file in a WordPress theme and is one of required files to able
+to control the layout features in the customizer for CSS.
+
+@package        Embedded Systems WordPress Theme
+@copyright      Copyright (C) 2017. Benjamin Lu
+@license        GNU General Public License v2 or later (http://www.gnu.org/licenses/gpl-2.0.html)
+@author         Benjamin Lu (https://www.benjaminlu.net/)
+================================================================================================
+*/
+.front-grid-systems-row {
+    margin: 1.125em 0;
+}
+
+.front-grid-systems-column {
+    float: left;
+    width: 19.2%;
+}
+
+.front-grid-systems-column:nth-of-type(1) {
+    margin-right: 1%;
+}
+
+.front-grid-systems-column:nth-of-type(2) {
+    margin-right: 1%;
+}
+
+.front-grid-systems-column:nth-of-type(3) {
+    margin-right: 1%;
+}
+
+.front-grid-systems-column:nth-of-type(4) {
+    margin-right: 1%;
+}
+
+.custom-video-row {
+    margin: 1.125em 0;
+}
+
+.custom-video-column {
+    width: 49.5%;
+}
+
+.custom-video-column:nth-of-type(1) {
+    float: left;
+}
+
+.custom-video-column:nth-of-type(2) {
+    float: right;
+}
+
+.custom-video-column:nth-of-type(3) {
+    float: left;
+}
+
+.custom-video-column:nth-of-type(4) {
+    float: right;
+}
+
+.custom-video-column:nth-of-type(5) {
+    float: left;
+}
+
+.custom-video-column:nth-of-type(6) {
+    float: right;
+}
+
+.entry-content table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+.entry-content tr:nth-of-type(odd) {
+    background: #eeeeee;
+}
+
+.entry-content th {
+    background: #333333;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.entry-content td,
+.entry-content th {
+    border: 0.063em solid #cccccc;
+    padding: 6px;
+    text-align: left;
+}
+
+.textwidget table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+.textwidget tr:nth-of-type(odd) {
+    background: #eeeeee;
+}
+
+.textwidget th {
+    background: #333333;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.textwidget td,
+.textwidget th {
+    border: 0.063em solid #cccccc;
+    font-size: 0.875em;
+    line-height: 1.6em;
+    padding: 6px;
+    text-align: left;
+}
+
+.printer-downloads table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+.printer-downloads tr:nth-of-type(odd) {
+    background: #eeeeee;
+}
+
+.printer-downloads th {
+    background: #333333;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.printer-downloads td,
+.printer-downloads th {
+    border: 0.063em solid #cccccc;
+    padding: 6px;
+    text-align: left;
+}
+
+.printer-downloads td:nth-of-type(1),
+.printer-downloads th:nth-of-type(1) {
+    width: 85%;
+}
+
+.printer-downloads td:nth-of-type(2),
+.printer-downloads th:nth-of-type(2){
+    text-align: center;
+    width: 15%;
+}
+
+.two-rows {
+    margin: 1.5em 0 1.5em 0;
+}
+
+.two-columns {
+    text-align: center;
+    width: 50%;
+}
+
+.two-columns:nth-of-type(1) {
+    float: left;
+}
+.two-columns:nth-of-type(2) {
+    float: right;
+}
+
+.two-columns:nth-of-type(3) {
+    float: left;
+}
+.two-columns:nth-of-type(4) {
+    float: right;
+}
+
+.two-columns .purchase-now {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 15px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+.two-columns .purchase-now:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+}
+
+.two-columns .purchase-now:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+}
+
+.tutorial-grid-system-row {
+   margin-bottom: 10px;
+}
+
+.tutorial-grid-system-column {
+    float: left;
+    width: 32.66666666666667%;
+}
+
+.tutorial-grid-system-column:nth-of-type(1) {
+    margin-right: 1%;
+}
+
+.tutorial-grid-system-column:nth-of-type(2) {
+    margin-right: 1%;
+}
+
+.tutorial-grid-system-column:nth-of-type(3) {
+    float: right;
+    margin-right: 0;
+}
+
+.tutorial-grid-system-column:nth-of-type(4) {
+    clear: both;
+    float: left;
+    margin-right: 1%;
+}
+
+.tutorial-grid-system-column:nth-of-type(5) {
+    margin-right: 1%;
+}
+
+.tutorial-grid-system-column:nth-of-type(6) {
+    float: right;
+    margin-right: 0;
+}
+
+.tutorial-grid-system-column:nth-of-type(7) {
+    clear: both;
+    float: left;
+    margin-right: 1%;
+}
+
+.tutorial-grid-system-column:nth-of-type(8) {
+    margin-right: 1%;
+}
+
+.tutorial-grid-system-column:nth-of-type(9) {
+    float: right;
+    margin-right: 0;
+}
+
+.tutorial-grid-system-column:nth-of-type(10) {
+    clear: both;
+    float: left;
+    margin-right: 1%;
+}
+
+.tutorial-grid-system-column:nth-of-type(11) {
+    margin-right: 1%;
+}
+
+.tutorial-grid-system-column:nth-of-type(12) {
+    float: right;
+    margin-right: 0;
+}
+
+.tutorial-grid-system-column:nth-of-type(13) {
+    clear: both;
+    float: left;
+    margin-right: 1%;
+}
+
+.tutorial-grid-system-column:nth-of-type(14) {
+    margin-right: 1%;
+}
+
+.tutorial-grid-system-column:nth-of-type(15) {
+    float: right;
+    margin-right: 0;
+}
+
+
+.why-us-row {
+    margin: 0;
+}
+
+.why-us-column {
+    margin: 0.5em 0;
+    text-align: center;
+    width: 49.5%;
+}
+
+.why-us-column:nth-of-type(1) {
+    float: left;
+}
+
+.why-us-column:nth-of-type(2) {
+    float: right;
+}
+
+.why-us-column:nth-of-type(3) {
+    float: left;
+}
+
+.why-us-column:nth-of-type(4) {
+    float: right;
+}
+
+.why-us-column:nth-of-type(5) {
+    float: left;
+}
+
+.why-us-column:nth-of-type(6) {
+    float: right;
+}
+
+.why-us-column p {
+    display: none;
+}
+
+.why-us-column .wp-caption {
+    margin-bottom: 0;
+}
+
+.breadcrumbs {
+    font-size: 12px;
+    margin-bottom: 1.125em;
+    padding: 0.5em;
+}
+
+
+@media screen and (max-width: 600px) {
+    .why-us-column {
+        width: 100%;
+    }
+
+    .why-us-column:nth-of-type(1) {
+    float: none;
+    }
+
+    .why-us-column:nth-of-type(2) {
+    float: none;
+    }
+
+    .why-us-column:nth-of-type(3) {
+    float: none;
+    }
+
+    .why-us-column:nth-of-type(4) {
+    float: none;
+    }
+
+    .why-us-column:nth-of-type(5) {
+    float: none;
+    }
+
+    .why-us-column:nth-of-type(6) {
+    float: none;
+    }
+    
+    .custom-video-column {
+        width: 100%;
+    }
+    
+    .custom-video-column:nth-of-type(1) {
+        float: none;
+    }
+
+    .custom-video-column:nth-of-type(2) {
+        float: none;
+    }
+
+    .custom-video-column:nth-of-type(3) {
+        float: none;
+    }
+
+    .custom-video-column:nth-of-type(4) {
+        float: none;
+    }
+
+    .custom-video-column:nth-of-type(5) {
+        float: none;
+    }
+
+    .custom-video-column:nth-of-type(6) {
+        float: none;
+    }
+    
+    .front-grid-systems-column {
+        float: none;
+        width: 100%;
+    }
+
+    .front-grid-systems-column:nth-of-type(1) {
+        margin-right: 0;
+    }
+
+    .front-grid-systems-column:nth-of-type(2) {
+        margin-right: 0;
+    }
+
+    .front-grid-systems-column:nth-of-type(3) {
+        margin-right: 0;
+    }
+
+    .front-grid-systems-column:nth-of-type(4) {
+        margin-right: 0;
+    }
+
+}
